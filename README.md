@@ -38,3 +38,13 @@ The Text "Hello World" should apear in the chat.
 
 check out the other games available. Have fun :)
 
+## Add the flat world
+Go to the directory of this repository:
+```sh
+cd d4k-minecraft-pi
+```
+copy the files to your Minecraft World:
+```sh
+cp -r flat_world/ ~/.minecraft/games/com.mojang/minecraftWorlds/
+```
+you can now chose the flat_wolrd at the beginning of the game
