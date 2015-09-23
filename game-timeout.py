@@ -12,7 +12,7 @@ mc.setBlock( -5, y, 5,block.GOLD_ORE)
 mc.setBlock( -5, y, -5,block.GOLD_ORE)
 mc.setBlock( 5, y, 5,block.GOLD_ORE)
 mc.setBlock( 5, y, -5,block.GOLD_ORE)
-mc.setBlock(x,y,z,block.GOLD_ORE)
+mc.setBlock(5,y - 1,-5,block.GOLD_ORE)
 
 mc.player.setTilePos(0,y,0)
 points = 0
