@@ -43,8 +43,8 @@ Go to the directory of this repository:
 ```sh
 cd d4k-minecraft-pi
 ```
-copy the files to your Minecraft World:
+execute the script which will copy the files to your minecraft folder:
 ```sh
-cp -r flat_world/ ~/.minecraft/games/com.mojang/minecraftWorlds/
+./copyFlatWorld.sh
 ```
 you can now chose the flat_wolrd at the beginning of the game
