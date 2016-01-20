@@ -23,9 +23,9 @@ Start a game via python:
 python path/to/game.py
 ```
 
-**For example**
-Starting the simple Game of this repository
-Start a Wolrd in Minecraft
+##For example##
+Starting the simple game of this repository.
+Start a world in Minecraft.
 In a new terminal go to the directory of this repository:
 ```sh
 cd d4k-minecraft-pi
@@ -35,7 +35,6 @@ Run the simple game:
 python simpleGame.py
 ```
 The Text "Hello World" should appear in the chat.
-
 Check out the other games available. Have fun :)
 
 ## Add the flat world
