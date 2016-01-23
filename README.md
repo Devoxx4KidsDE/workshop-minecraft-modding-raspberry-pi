@@ -1,3 +1,5 @@
+![Devoxx4Kids](http://www.devoxx4kids.de/wp-content/uploads/2015/07/cropped-header_hp.jpg)
+
 # Devoxx4Kids - Minecraft modding with Raspberry Pi
 This repository provides materials, useful information, and examples for a workshop to create a simple mod in
 Minecraft running on a Raspberry Pi.
