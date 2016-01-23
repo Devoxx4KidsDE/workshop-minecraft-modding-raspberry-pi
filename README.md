@@ -8,7 +8,7 @@ This repository provides materials, useful information, and examples for a works
 Minecraft running on a Raspberry Pi.
 
 
-[Anleitung auf Deutch](README_DE.md)
+[Anleitung auf Deutsch](README_DE.md)
 
 
 ## Getting Started
