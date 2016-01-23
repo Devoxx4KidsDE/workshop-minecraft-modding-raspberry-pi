@@ -45,7 +45,7 @@ Zum Starten einer Modifikation mit Python muss folgender Befehl ausgeführt werd
 ```sh
 python path/to/game.py
 ```
-wobei 'path/to/game.py' zum Beispiel durch 'games/game-timeout.py' ersetzt werden kann.
+wobei 'path/to/game.py' zum Beispiel durch 'games/collect-blocks/game-collect-blocks.py' ersetzt werden kann.
 
 
 ## 'Hello World' Beispiel
@@ -76,17 +76,3 @@ Führen Sie das Script _add-flat-world-to-minecraft.sh_ aus dem Ordner _d4k-mine
 um die 'flache Welt' in Minecraft aufzunehmen.
 
 Nun können Sie zu Beginn des Spiels die 'flache Welt' auswählen und laden.
-
-
-## Möglicher Ablauf für die Arbeit mit den Kindern - basierend auf dem Spiel unter games/game-timeout.py
-
-* Starten des helloWorld und Durchgehen der Befehle
-* Programmatisch erste Blöcke setzen
-* OPTIONAL: Zu Spielstart den Spieler an seine Startkoordinaten teleportieren
-* Konzept der while-Schleifen einführen
-* Abfragen der Block-Hit-Events, Ausgabe in die Konsole (mit print)
-* OPTIONAL ABER EMPFOHLEN: Setzen von "world_immutable", um zu verhindern, dass die Welt vom Spieler verändert wird. (Block-Events werden nur mit der rechten Maustaste und dem Schwert getriggert)
-* Konzept der for-in-Schleife einführen
-* Konzept der if-Abfragen einführen
-* Beschränken der Ausgabe auf einen bestimmten Block-Typ
-* Konzept der Punkte einführen

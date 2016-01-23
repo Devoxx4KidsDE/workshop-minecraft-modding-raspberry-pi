@@ -34,6 +34,8 @@ Start a game via python:
 ```sh
 python path/to/game.py
 ```
+in which you can change 'path/to/game.py' with 'games/collect-blocks/game-collect-blocks.py' for example.
+
 
 ## Hello World example
 
@@ -57,22 +59,8 @@ Go to the directory of this repository:
 ```sh
 cd d4k-minecraft-pi
 ```
-Execute the script which will copy the files to your minecraft folder:
+Execute the script which will copy the files to your Minecraft folder:
 ```sh
 ./flat_world/add-flat-world-to-minecraft.sh
 ```
 You can now choose the flat_world at the beginning of the game.
-
-## Possible walkthrough for working with kids - based on the game at game/game-timeout.py:
-
-* Run the helloWorld to see how it works.
-* Set first blocks.
-* OPTIONAL: on start reset the player to coordinates.
-* Introduce the concept of a while-loop.
-* Poll the block hit events and print them to see what happens.
-* OPTIONAL BUT RECOMMENDED: set world immutable to avoid destroying the world without a hit event triggered
-(hit event only by sword with right mouse button)
-* Introduce the concept of a for-in-loop.
-* Introduce the concept of a if-conditions.
-* Only print something if a specific block-type was hit.
-* Add concept of points.
