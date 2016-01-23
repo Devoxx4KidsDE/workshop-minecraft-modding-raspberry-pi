@@ -4,6 +4,7 @@ This repository provides materials, useful information, and examples for a works
 
 [Anleitung auf Deutch](README_DE.md)
 
+
 ## Getting Started
 Minecraft is for free on a Raspberry Pi.
 Install Minecraft for pi on your Raspberry Pi:
@@ -27,18 +28,16 @@ python path/to/game.py
 ```
 
 ## Hello World example
-Starting the simple game of this repository.
-Start a world in Minecraft.
-In a new terminal go to the directory of this repository:
+
+1. Start a world in Minecraft.
+2. In a new terminal execute the following command from _d4k-minecraft-pi/_:
 ```sh
-cd d4k-minecraft-pi/examples/
+python example/helloWorld.py
 ```
-Run the simple game:
-```sh
-python helloWorld.py
-```
-The Text "Hello World" should appear in the chat.
-Check out the other games available. Have fun :)
+The Text "Hello World" appears in the chat.
+
+Check out the other games available in [games](games). Have fun :bowtie:
+
 
 ## Add the flat world
 
