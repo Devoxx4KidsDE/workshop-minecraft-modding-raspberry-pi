@@ -1,6 +1,9 @@
 ![Devoxx4Kids](http://www.devoxx4kids.de/wp-content/uploads/2015/07/cropped-header_hp.jpg)
 
 # Devoxx4Kids - Minecraft modding with Raspberry Pi
+
+![Minecraft](https://s-media-cache-ak0.pinimg.com/736x/a4/2c/f1/a42cf121fbcf008b82f576c98cb0791a.jpg)
+
 This repository provides materials, useful information, and examples for a workshop to create a simple mod in
 Minecraft running on a Raspberry Pi.
 
@@ -9,6 +12,7 @@ Minecraft running on a Raspberry Pi.
 
 
 ## Getting Started
+
 Minecraft is for free on a Raspberry Pi.
 Install Minecraft for pi on your Raspberry Pi:
 ```sh
@@ -60,6 +64,7 @@ Execute the script which will copy the files to your minecraft folder:
 You can now choose the flat_world at the beginning of the game.
 
 ## Possible walkthrough for working with kids - based on the game at game/game-timeout.py:
+
 * Run the helloWorld to see how it works.
 * Set first blocks.
 * OPTIONAL: on start reset the player to coordinates.
