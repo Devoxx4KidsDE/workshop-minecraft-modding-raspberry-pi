@@ -12,7 +12,7 @@ Zum Installieren von Minecraft auf dem Raspberry Pi müssen folgende Befehle aus
 sudo apt-get update
 sudo apt-get install minecraft-pi
 ```
-Das Spiel kann entweder vom Terminal aus
+Das Spiel kann entweder vom Terminal aus mit
 ```sh
 minecraft-pi
 ```
@@ -22,15 +22,17 @@ Games > Minecraft Pi
 ```
 gestartet werden.
 
-Wenn Minecraft gestartet ist, muss zuerst eine Welt geladen werden.
-Unter ['Laden der flachen Welt'](#flatworld) wird erläutert wie man eine vorbereitete Welt
+
+Sobald Minecraft gestartet ist, kann eine Welt geladen werden.
+
+Unter ['Laden der flachen Welt'](#flatworld) wird erläutert wie eine vorbereitete Welt
 ohne Berge und Tälern geladen werden kann.
 
 Zum Starten einer Modifikation mit Python muss folgender Befehl ausgeführt werden:
 ```sh
 python path/to/game.py
 ```
-wobei 'path/to/game.py' zum Beispiel durch 'games/game-timeout.py' ersetzt wird.
+wobei 'path/to/game.py' zum Beispiel durch 'games/game-timeout.py' ersetzt werden kann.
 
 
 ## 'Hello World' Beispiel
