@@ -44,7 +44,7 @@ cd d4k-minecraft-pi
 ```
 Execute the script which will copy the files to your minecraft folder:
 ```sh
-./copyFlatWorld.sh
+./flat_world/add-flat-world-to-minecraft.sh
 ```
 You can now choose the flat_world at the beginning of the game.
 

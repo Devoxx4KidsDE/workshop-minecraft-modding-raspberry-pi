@@ -47,7 +47,7 @@ cd d4k-minecraft-pi
 ```
 Ausführen des Skripts, welches die Welt in das Spieleverzeichnis kopiert:
 ```sh
-./copyFlatWorld.sh
+./flat_world/add-flat-world-to-minecraft.sh
 ```
 Nun können Sie zu Beginn des Spiels die flache Welt laden.
 
