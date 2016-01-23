@@ -48,7 +48,7 @@ Execute the script which will copy the files to your minecraft folder:
 ```
 You can now choose the flat_world at the beginning of the game.
 
-## Possible walkthrough for working with kids:
+## Possible walkthrough for working with kids - based on the game at game/game-timeout.py:
 * Run the helloWorld to see how it works.
 * Set first blocks.
 * OPTIONAL: on start reset the player to coordinates.

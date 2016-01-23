@@ -51,7 +51,7 @@ Ausführen des Skripts, welches die Welt in das Spieleverzeichnis kopiert:
 ```
 Nun können Sie zu Beginn des Spiels die flache Welt laden.
 
-## Möglicher Ablauf für die Arbeit mit den Kindern
+## Möglicher Ablauf für die Arbeit mit den Kindern - basierend auf dem Spiel unter games/game-timeout.py
 * Starten des helloWorld und Durchgehen der Befehle
 * Programmatisch erste Blöcke setzen
 * OPTIONAL: Zu Spielstart den Spieler an seine Startkoordinaten teleportieren
