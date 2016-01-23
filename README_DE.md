@@ -24,7 +24,7 @@ Zum starten einer Mod mit Python muss folgender Befehl ausgeführt werden:
 python path/to/game.py
 ```
 
-**Zum Beispiel**
+**'Hello World' Beispiel**
 Starten des 'helloWorld' dieses Repositorys:
 
 1. Öffnen einer Welt in Minecraft

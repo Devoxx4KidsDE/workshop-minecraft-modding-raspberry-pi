@@ -23,7 +23,7 @@ Start a game via python:
 python path/to/game.py
 ```
 
-##For example##
+##Hello World example##
 Starting the simple game of this repository.
 Start a world in Minecraft.
 In a new terminal go to the directory of this repository:
