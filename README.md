@@ -2,7 +2,17 @@
 
 # Devoxx4Kids - Minecraft modding with Raspberry Pi
 
+In this workshop we want to show children's and young persons basic programming concepts like
+[statements](https://en.wikipedia.org/wiki/Statement_%28computer_science%29),
+[loops](https://en.wikipedia.org/wiki/Control_flow#Loops) and
+[conditionals](https://en.wikipedia.org/wiki/Conditional_%28computer_programming%29) and other concepts of
+[imperative programming](https://en.wikipedia.org/wiki/Conditional_%28computer_programming%29).
+
 ![Minecraft](https://s-media-cache-ak0.pinimg.com/736x/a4/2c/f1/a42cf121fbcf008b82f576c98cb0791a.jpg)
+
+Because much young persons do know the game [Minecraft](https://minecraft.net/) we want to create games with the called
+programming concepts in this workshop according to the devoxx4kids motto 'Your Kids Play Games Mine Makes Games' and
+of course we will play the games.
 
 This repository provides materials, useful information, and examples for a workshop to create a simple mod in
 Minecraft running on a Raspberry Pi.
