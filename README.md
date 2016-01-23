@@ -28,7 +28,7 @@ Starting the simple game of this repository.
 Start a world in Minecraft.
 In a new terminal go to the directory of this repository:
 ```sh
-cd d4k-minecraft-pi/example/
+cd d4k-minecraft-pi/examples/
 ```
 Run the simple game:
 ```sh
