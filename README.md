@@ -38,6 +38,11 @@ The Text "Hello World" should appear in the chat.
 Check out the other games available. Have fun :)
 
 ## Add the flat world
+
+Minecraft will build by default a world with mountains and valleys.
+For our purpose it is more useful and easier for the kids to have a flat world so they do not have to deal
+with the third dimension from the beginning.
+
 Go to the directory of this repository:
 ```sh
 cd d4k-minecraft-pi

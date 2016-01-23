@@ -41,6 +41,11 @@ Starten des 'helloWorld' dieses Repositorys:
 Sehen Sie sich auch die anderen enthaltenen Spiele an! Viel Spaß :)
 
 ## Laden der flachen Welt
+
+Minecraft erzeugt standardmäßig eine Welt mit Bergen und Tälern. Für unseren Zweck ist besser und einfacher
+für die Kinder mit einer flachen Welt zu starten, sodass sie sich nicht von Anfang an mit der
+dritten Dimension beschäftigen müssen.
+
 Wechseln in den Ordner des Repositorys:
 ```sh
 cd d4k-minecraft-pi
