@@ -1,5 +1,6 @@
 # Devoxx4Kids - Minecraft modding with Raspberry Pi
-This repository provides materials, useful information, and examples for a workshop to create a simple mod in Minecraft running on a Raspberry Pi.
+This repository provides materials, useful information, and examples for a workshop to create a simple mod in
+Minecraft running on a Raspberry Pi.
 
 
 [Anleitung auf Deutch](README_DE.md)
@@ -18,9 +19,10 @@ minecraft-pi
 ```
 Or open the start menu and go to:
 ```
-Games>Minecraft Pi
+Games > Minecraft Pi
 ```
-Choose a world (if you want a flat world, there is a script to flat an existing world or easily copy the data of an empty world available in this repository).
+Choose a world (if you want a flat world, there is a script to flat an existing world or easily copy the data
+of an empty world available in this repository).
 
 Start a game via python:
 ```sh
@@ -61,7 +63,8 @@ You can now choose the flat_world at the beginning of the game.
 * OPTIONAL: on start reset the player to coordinates.
 * Introduce the concept of a while-loop.
 * Poll the block hit events and print them to see what happens.
-* OPTIONAL BUT RECOMMENDED: set world immutable to avoid destroying the world without a hit event triggered (hit event only by sword with right mouse button)
+* OPTIONAL BUT RECOMMENDED: set world immutable to avoid destroying the world without a hit event triggered
+(hit event only by sword with right mouse button)
 * Introduce the concept of a for-in-loop.
 * Introduce the concept of a if-conditions.
 * Only print something if a specific block-type was hit.
