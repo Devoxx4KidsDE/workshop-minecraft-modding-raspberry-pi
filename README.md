@@ -1,6 +1,9 @@
 # Devoxx4Kids - Minecraft modding with Raspberry Pi
 This repository provides materials, useful information, and examples for a workshop to create a simple mod in Minecraft running on a Raspberry Pi.
 
+
+[Anleitung auf Deutch](README_DE.md)
+
 ## Getting Started
 Minecraft is for free on a Raspberry Pi.
 Install Minecraft for pi on your Raspberry Pi:

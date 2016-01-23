@@ -1,60 +1,67 @@
 # Devoxx4Kids - Minecraft modding mit dem Raspberry Pi
-Dieses Repository stellt Materialien, nützliche Informationen und Beispiele bereit, um einen Workshop zum durchzuführen, bei dem eine einfache Mod in Minecraft auf dem Raspberry Pi erstellt wird.
+Dieses Repository stellt Materialien, nützliche Informationen und Beispiele für eine einfache Modifikation
+von Minecraft auf dem Raspberry Pi bereit.
+
+
+[Instructions in english](README.md)
 
 ## Vorbereitungen
-Minecraft ist kostenlos auf einem Raspberry Pi verfügbar.
 
-Zum installieren von Minecraft auf dem Raspberry Pi müssen folgende Befehle ausgeführt werden:
+Zum Installieren von Minecraft auf dem Raspberry Pi müssen folgende Befehle ausgeführt werden:
 ```sh
 sudo apt-get update
 sudo apt-get install minecraft-pi
 ```
-Jetzt kann man das Spiel vom Terminal aus starten:
+Das Spiel kann entweder vom Terminal aus
 ```sh
 minecraft-pi
 ```
-Oder über das Startmenü:
+oder über das Startmenü
 ```
 Games > Minecraft Pi
 ```
-Zum Starten muss eine Welt geladen werden. (Wenn eine komplett flache Welt gespielt werden soll, gibt es in diesem Repository ein Skript, um eine existierende flache Welt zu laden.)
+gestartet werden.
 
-Zum starten einer Mod mit Python muss folgender Befehl ausgeführt werden:
+Wenn Minecraft gestartet ist, muss zuerst eine Welt geladen werden.
+Unter ['Laden der flachen Welt'](#flatworld) wird erläutert wie man eine vorbereitete Welt
+ohne Berge und Tälern geladen werden kann.
+
+Zum Starten einer Modifikation mit Python muss folgender Befehl ausgeführt werden:
 ```sh
 python path/to/game.py
 ```
+wobei 'path/to/game.py' zum Beispiel durch 'games/game-timeout.py' ersetzt wird.
+
 
 **'Hello World' Beispiel**
-Starten des 'helloWorld' dieses Repositorys:
+Starten des 'helloWorld' Beispiels:
 
-1. Öffnen einer Welt in Minecraft
-2. In einem neuen Terminal folgende Befehle ausführen:
+1. Öffne eine beliebige Welt in Minecraft
+2. Starte ein neues Terminal und führe folgenden Befehl aus dem Ordner _d4k-minecraft-pi/_ aus:
     ```sh
-    cd d4k-minecraft-pi/examples/
+    python example/helloWorld.py
     ```
-3. Starten der Mod:
-    ```sh
-    python helloWorld.py
-    ```
-4. Der Text "Hello World" sollte im Chat erscheinen.
+4. Der Text "Hello World" wird im Chat von Minecraft ausgegeben.
 
-Sehen Sie sich auch die anderen enthaltenen Spiele an! Viel Spaß :)
 
-## Laden der flachen Welt
+Sehen Sie sich auch die weiteren Spiele unter [games](games) an! Viel Spaß :bowtie:
+
+
+## <a name="flatworld"></a>Laden der flachen Welt
 
 Minecraft erzeugt standardmäßig eine Welt mit Bergen und Tälern. Für unseren Zweck ist besser und einfacher
-für die Kinder mit einer flachen Welt zu starten, sodass sie sich nicht von Anfang an mit der
+für die Kinder mit einer flachen Welt zu starten, sodass sie sich von Anfang an nicht mit der
 dritten Dimension beschäftigen müssen.
 
-Wechseln in den Ordner des Repositorys:
-```sh
-cd d4k-minecraft-pi
-```
 Ausführen des Skripts, welches die Welt in das Spieleverzeichnis kopiert:
+Führen sie das Script _add-flat-world-to-minecraft.sh_ aus dem Ordner _d4k-minecraft-pi/_ mit folgendem Befehl aus:
 ```sh
 ./flat_world/add-flat-world-to-minecraft.sh
 ```
-Nun können Sie zu Beginn des Spiels die flache Welt laden.
+um die 'flache Welt' zu Minecraft aufzunehmen.
+
+Nun können Sie zu Beginn des Spiels die 'flache Welt' auswählen und laden.
+
 
 ## Möglicher Ablauf für die Arbeit mit den Kindern - basierend auf dem Spiel unter games/game-timeout.py
 * Starten des helloWorld und Durchgehen der Befehle
