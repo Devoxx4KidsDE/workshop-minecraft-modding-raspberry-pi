@@ -30,7 +30,7 @@ Starten des 'helloWorld' dieses Repositorys:
 1. Öffnen einer Welt in Minecraft
 2. In einem neuen Terminal folgende Befehle ausführen:
     ```sh
-    cd d4k-minecraft-pi
+    cd d4k-minecraft-pi/example/
     ```
 3. Starten der Mod:
     ```sh
