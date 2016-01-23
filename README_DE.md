@@ -33,7 +33,7 @@ python path/to/game.py
 wobei 'path/to/game.py' zum Beispiel durch 'games/game-timeout.py' ersetzt wird.
 
 
-**'Hello World' Beispiel**
+## 'Hello World' Beispiel
 Starten des 'helloWorld' Beispiels:
 
 1. Öffne eine beliebige Welt in Minecraft
