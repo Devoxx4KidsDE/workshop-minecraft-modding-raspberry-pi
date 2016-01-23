@@ -32,7 +32,7 @@ cd d4k-minecraft-pi
 ```
 Run the simple game:
 ```sh
-python simpleGame.py
+python helloWorld.py
 ```
 The Text "Hello World" should appear in the chat.
 Check out the other games available. Have fun :)
@@ -49,7 +49,7 @@ Execute the script which will copy the files to your minecraft folder:
 You can now choose the flat_world at the beginning of the game.
 
 ## Possible walkthrough for working with kids:
-* Run the simpleGame to see how it works.
+* Run the helloWorld to see how it works.
 * Set first blocks.
 * OPTIONAL: on start reset the player to coordinates.
 * Introduce the concept of a while-loop.

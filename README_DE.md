@@ -25,7 +25,7 @@ python path/to/game.py
 ```
 
 **Zum Beispiel**
-Starten des 'simpleGame' dieses Repositorys:
+Starten des 'helloWorld' dieses Repositorys:
 
 1. Öffnen einer Welt in Minecraft
 2. In einem neuen Terminal folgende Befehle ausführen:
@@ -34,7 +34,7 @@ Starten des 'simpleGame' dieses Repositorys:
     ```
 3. Starten der Mod:
     ```sh
-    python simpleGame.py
+    python helloWorld.py
     ```
 4. Der Text "Hello World" sollte im Chat erscheinen.
 
@@ -52,7 +52,7 @@ Ausführen des Skripts, welches die Welt in das Spieleverzeichnis kopiert:
 Nun können Sie zu Beginn des Spiels die flache Welt laden.
 
 ## Möglicher Ablauf für die Arbeit mit den Kindern
-* Starten des simpleGame und Durchgehen der Befehle
+* Starten des helloWorld und Durchgehen der Befehle
 * Programmatisch erste Blöcke setzen
 * OPTIONAL: Zu Spielstart den Spieler an seine Startkoordinaten teleportieren
 * Konzept der while-Schleifen einführen
